@@ -1,0 +1,156 @@
+body{
+    background: linear-gradient(to right ,rgb(0, 0, 0), rgb(98, 97, 101) ,#8c8b8b);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: pointer;
+    height: 100%;
+    overflow: auto;
+    top:0px;
+    bottom:0px;
+    
+}
+header{
+    
+        background: linear-gradient(to right ,rgb(21, 21, 21), rgb(49, 48, 52));
+
+    margin-top:0px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position:sticky;
+    top:0px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-size: 25px;
+    border-style: none;
+    background-color: rgb(51, 0, 66);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-content: center;
+    overflow: auto;
+    /* position: relative; */
+}
+h1{
+    color: white;
+    font-family: "arial black";
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 15px;
+    padding-left: 15px
+}
+
+#video{
+    margin-bottom: 15px;
+    border-style:none;
+    border-color: rgb(173, 6, 250);
+    background-color: white;
+    border-radius: 10px;
+    position: static;
+    margin-left:auto;
+    margin-right: auto;
+    left:auto;
+    right:auto;
+}
+
+p{
+    border-radius:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-weight: 500;
+}
+ol{
+    background-attachment: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    font-style: oblique;
+    font-weight: 500;
+}
+li{
+    color: black;
+    border-radius: 5px;
+    color:#ffffff
+
+}
+.box{
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 5px;
+    padding:10px;
+    color:#ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#arrow{
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#marked{
+    font-weight:1000;
+}
+
+.box:hover{
+    animation:an;
+    animation-duration: 0.5s
+}
+
+h1:hover{
+    animation:an;
+    animation-duration: 0.5s
+}
+
+video:hover{
+    
+    animation:an;
+    animation-duration: 0.5s
+}
+
+@keyframes an {
+    40%{transform: translatey(-5px)}
+    100%{transform: translatey(0px)}    
+}
+
+#pbox{
+    animation:none
+}
+
+a:link{
+    color : rgb(1, 1, 1);
+}
+a:visited{
+    color: rgb(24, 30, 30);
+}
+a:hover{
+    color: rgb(153, 161, 163);
+}
+
+#icon{
+    color:white
+}
+
+#like{
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 10px;
+    /* border-style: none; */
+    padding: 0.5em;
+    will-change: filter ;
+    transition: filter ;
+    transition-duration: 300ms;
+}
+
+#like:hover {
+    filter: drop-shadow(0 0 2em #c5c2c3) ;
+    background-color: rgba(0,0,0);
+}
+btn:active{
+    background-color: rgb(111, 111, 111);
+}
+
+label{
+
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
