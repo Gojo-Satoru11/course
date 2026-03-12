@@ -1,5 +1,3 @@
-// const btn = document.getElementById("like");
-// const label = ;
 let count = 0;
 let likes;
 document.getElementById("like").onclick = function clickme()
