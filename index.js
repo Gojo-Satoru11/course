@@ -7,6 +7,3 @@ document.getElementById("like").onclick = function clickme()
     count++ 
     document.getElementById("lbl").textContent = "Likes: "+String(count)
 } ;
-open("likes.json") ;{
-    open("likes.json")
-}
