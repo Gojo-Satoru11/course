@@ -11,16 +11,14 @@ body{
     
 }
 header{
-    
-        background: linear-gradient(to right ,rgb(21, 21, 21), rgb(49, 48, 52));
-
+    background: linear-gradient(to right ,rgb(21, 21, 21), rgb(49, 48, 52));
     margin-top:0px;
     padding: 15px;
     margin-bottom: 20px;
     position:sticky;
     top:0px;
     color: white;
-    font-family: "Dela Gothic One";
+    font-family: "Arial Black";
     font-size: 25px;
     border-style: none;
     background-color: rgb(51, 0, 66);
