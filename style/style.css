@@ -117,13 +117,13 @@ video:hover{
 }
 
 a:link{
-    color : rgb(1, 1, 1);
+    color : rgb(116, 167, 247);
 }
 a:visited{
-    color: rgb(24, 30, 30);
+    color: rgb(65, 106, 171);
 }
 a:hover{
-    color: rgb(153, 161, 163);
+    color: rgb(99, 157, 247);
 }
 
 #icon{
